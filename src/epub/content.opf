@@ -29,13 +29,17 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Experiences of Loveday Brooke, Lady Detective</dc:title>
 		<meta property="file-as" refines="#title">Experiences of Loveday Brooke, Lady Detective, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Brooke, Loveday (Fictitious character)</dc:subject>
+		<dc:subject id="subject-2">Private investigators -- England -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Detective and mystery stories</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh86002800</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="term" refines="#subject-2">sh2008109474</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85037260</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -51,7 +55,6 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/catherine-louisa-pirkis_the-experiences-of-loveday-brooke-lady-detective</meta>
 		<dc:creator id="author">Catherine Louisa Pirkis</dc:creator>
 		<meta property="file-as" refines="#author">Pirkis, Catherine Louisa</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Catherine_Louisa_Pirkis</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n85377594</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -66,9 +69,9 @@
 		<dc:contributor id="transcriber-2">Mary Mark Ockerbloom</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Ockerbloom, Mary Mark</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
